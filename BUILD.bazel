@@ -1,0 +1,13 @@
+cc_library(
+    name = "test",
+    srcs = ["test.cc"],
+    hdrs = [],
+    copts = [
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+    ],
+    deps = [
+        "@org_libpng_libpng//:libpng"
+    ]
+)
